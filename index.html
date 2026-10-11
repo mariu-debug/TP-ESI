@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabajo Práctico REF-ESI</title>
+  <!-- Fuente moderna Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <header class="seccion-titulo-rosa">
+    <div class="header-left">
+      <h1>Espacio ESI: Palabras que transforman</h1>
+
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Contenedor de un concepto -->
+    <div class="bloque-concepto" id="bloque-explora">
+      <!-- Párrafo introductorio corto -->
+      <p class="descripcion-concepto">Descubre los cuatro valores claves de la Educación Sexual Integral.</p>
+      <button class="btn btn-principal" id="btn-dinamico" onclick="rotarConcepto()">Elije una palabra</button>
+    </div>
+
+    <div class="contenedor-tarjetas-esi">
+      <div class="tarjeta morada" id="tarjeta-0" onclick="mostrarInfo('Igualdad')">
+        <h2>Igualdad</h2>
+        <p>Todas las personas tienen los mismos derechos y deberes, sin distinción.</p>
+        <div class="destino-boton"></div>
+
+
+
+      </div>
+
+
+      <div class="tarjeta azul" id="tarjeta-1" onclick="mostrarInfo('Respeto')">
+        <h2>Respeto</h2>
+        <p>Valorar a los demás, aceptando sus diferencias y espacio individual.</p>
+        <div class="destino-boton"></div>
+
+      </div>
+
+
+      <div class="tarjeta verde" id="tarjeta-2" onclick="mostrarInfo('Consentimiento')">
+        <h2>Consentimiento</h2>
+        <p>Acuerdo mutuo, libre y voluntario entre las personas para realizar una acción.</p>
+        <div class="destino-boton"></div>
+
+      </div>
+
+
+      <div class="tarjeta naranja" id="tarjeta-3" onclick="mostrarInfo('Comunicación')">
+        <h2>Comunicación</h2>
+        <p>Intercambio de ideas de forma clara, honesta y escuchando activamente.</p>
+        <div class="destino-boton"></div>
+
+      </div>
+
+
+
+    </div>
+
+    </div>
+  </main>
+
+  <footer class="contenedor-footer">
+    <div class="seccion-footer-rosa">
+      <p>Actividad en Grupo &copy; 2026 — Construyendo espacios seguros</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
